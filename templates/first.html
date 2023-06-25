@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>OR</title>
+ <link rel="stylesheet" type="text/css" href="/static/first.css">
+</head>
+<body>
+<header>
+  <div class="container">
+      <div class="centered">
+        <h1>OPINION ORACLE</h1>
+        <p>We got some text analysis here</p>
+      </div>
+  </div>
+</header>
+<div class="form_info">
+    <div class="form_input">
+     <form action="" method="POST">
+       <textarea placeholder="Введите текст" id="input_text" name="input_text" required></textarea>
+         <br>
+       <input type="submit" value="Отправить на анализ">
+     </form>
+    </div>
+    <div class="form_output">
+        <textarea id="output_info" readonly>{{ result }} </textarea>
+    </div>
+</div>
+<footer class="footer">
+<ul class="footer-links">
+  <li><a href="/">Анализ текста</a></li>
+  <li><a href="/data">Общие сведения</a></li>
+  <li><a href="/about">О проекте</a></li>
+</ul>
+</footer>
+</body>
+</html>

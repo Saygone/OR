@@ -1,0 +1,87 @@
+header {
+    background-color: rgba(62, 195, 224, 1); /* Задаем цвет фона header */
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: center; /* Выравнивание по горизонтали */
+    height: 292px; /* Задаем высоту header */
+}
+
+.container_header {
+    background-color: rgba(62, 195, 224, 1); /* Задаем цвет фона div */
+    color: white; /* Задаем цвет текста */
+    padding: 20px; /* Добавляем отступы */
+}
+
+.centered {
+    text-align: center; /* Выравнивание текста по центру */
+    margin: auto; /* Центрирование блока по горизонтали */
+}
+
+.centered h1 {
+    font-size: 64px; /* Увеличиваем размер шрифта */
+    font-family: "Inter", sans-serif; /* Задаем шрифт "Inter" */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin-right: 15px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.footer-links a:hover {
+  color: #000000;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.diagram {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.diagram img {
+  display: block;
+  max-width: 100%;
+}
+
+.diagram figcaption {
+  text-align: center;
+  margin-top: 8px;
+}

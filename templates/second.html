@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>OR</title>
+ <link rel="stylesheet" href="/static/second.css">
+</head>
+<body>
+<header>
+  <div class="container_header">
+      <div class="centered">
+        <h1>OPINION ORACLE</h1>
+        <p>We got some text analysis here</p>
+      </div>
+  </div>
+</header>
+<div class="container">
+    <div class="diagram">
+        <img src="data:image/jpeg;base64,{{ user_dynamic }}" alt="user_dynamic">
+        <figcaption>Динамика отзывов пользователей приложения</figcaption>
+    </div>
+
+    <div class="diagram">
+        <img src="data:image/jpeg;base64,{{ user_amount }}" alt="user_amount">
+        <figcaption>Отзывы пользователей приложения</figcaption>
+    </div>
+
+    <div class="diagram">
+        <img src="data:image/jpeg;base64,{{ kp_month }}" alt="kp_month">
+        <figcaption>Отзывы пользователей приложения кинопоиск за месяц</figcaption>
+    </div>
+
+    <div class="diagram">
+        <img src="data:image/jpeg;base64,{{ kp_week }}" alt="kp_week">
+        <figcaption>Отзывы пользователей приложения кинопоиск за неделю</figcaption>
+    </div>
+</div>
+<footer class="footer">
+<ul class="footer-links">
+  <li><a href="/">Анализ текста</a></li>
+  <li><a href="/data">Общие сведения</a></li>
+  <li><a href="/about">О проекте</a></li>
+</ul>
+</footer>
+</body>
+</html>
